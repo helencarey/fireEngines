@@ -1,0 +1,110 @@
+/* ===============================
+PALETTE							
+var gold = #ffc107; 
+var red = #e53935;
+var white = #fff;
+var bg = #f8f8f8;;
+var txt = #3d3d3d;
+
+
+/* ===============================
+LAYOUT							*/
+
+	* {
+	  box-sizing: border-box;
+	}
+
+	body {
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 1em;
+		background-color: #f8f8f8;
+		margin: 0%;
+		padding: 0;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		flex-flow: row wrap;
+		height: 100vh;
+		width: 100vw;
+
+		border-radius: 4pt;
+		color: #333333;
+		text-rendering: optimizeLegibility;
+	  	-webkit-font-smoothing: subpixel-antialiased;
+	}
+
+	header {
+		display: flex;
+		flex: 1 100%;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+		height: 10%;
+		/*width: 100%;*/
+		background-color: rgba(255,255,255, 1);
+		padding:;
+		margin-bottom: 0%;
+		box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+		z-index: 99;
+		color: #3d3d3d;
+		background-color: #fff;
+		border-bottom: 10px solid #fdd835;
+		/*border: 0px solid pink;*/
+	}
+
+	main {
+		display: flex;
+		flex: 1 100%;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 2%;
+
+		height: 80%;
+	    border: 0px solid orange;
+	 }
+
+	 main>.subHead {
+	 	display: flex;
+	 	/*flex: 1 100%;*/
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		font-size: 0.75em;
+		min-height: 50px;
+		width: 100%;
+		padding: 0 10%;
+		border: 0px solid lime;
+	 }
+
+	 main>.widget {
+	 	align-items: center;
+		justify-content: center;
+		height: 95%;
+		margin-top: 3%;
+		border: 1px solid orange;
+	 }
+
+
+	footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		height: 9%;
+		width: 100%;
+		color: #3d3d3d;
+		font-size: 0.5em;
+		background-color: #fff;
+		border-top: 10px solid #fdd835;;
+
+		/*background-color: rgba(55,55,55, 1);*/
+		padding:;
+		/*margin-top: 60%;  /* clears header */
+		box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+		z-index: 99;
+	}
+
