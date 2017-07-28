@@ -22,10 +22,11 @@ LAYOUT							*/
 		margin: 0%;
 		padding: 0;
 
-		display: flex;
+		display: block;
+		/*
 		flex-direction: column;
 		justify-content: space-between;
-		flex-flow: row wrap;
+		flex-flow: row wrap; */
 		height: 100vh;
 		width: 100vw;
 
@@ -45,7 +46,7 @@ LAYOUT							*/
 		height: 10%;
 		/*width: 100%;*/
 		background-color: rgba(255,255,255, 1);
-		padding:;
+		padding: 1%;
 		margin-bottom: 0%;
 		box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
 		z-index: 99;
@@ -55,23 +56,28 @@ LAYOUT							*/
 		/*border: 0px solid pink;*/
 	}
 
-	main {
-		display: flex;
-		flex: 1 100%;
-		flex-direction: column;
-		justify-content: flex-start;
-		padding: 2%;
+	header>* {
+		font-size: 1.35em;
+	}
 
+
+	main {
+		display: block;
+		/*flex: 1 100%;
+		flex-direction: column;
+		justify-content: flex-start;*/
+		padding: 0;
+		width: 100%;
 		height: 80%;
 	    border: 0px solid orange;
 	 }
 
 	 main>.subHead {
-	 	display: flex;
-	 	/*flex: 1 100%;*/
+	 	display: block;
+	 	/*flex: 1 100%;
 		flex-direction: row;
 		justify-content: center;
-		align-items: center;
+		align-items: center;*/
 		text-align: center;
 		font-size: 0.75em;
 		min-height: 50px;
@@ -81,19 +87,23 @@ LAYOUT							*/
 	 }
 
 	 main>.widget {
-	 	align-items: center;
-		justify-content: center;
-		height: 95%;
-		margin-top: 3%;
-		border: 1px solid orange;
+	 	display: block;
+	 	/*align-items: center;
+		justify-content: center;*/
+		height: 92%;
+		margin: 0 3%;
+		padding: 0 2%;
+		border: 0px solid orange;
+		/*border-bottom: 10px solid #fdd835;*/
+		z-index: 1;
 	 }
 
 
 	footer {
-		display: flex;
-		flex-direction: row;
+		display: block;
+		/* flex-direction: row;
 		justify-content: center;
-		align-items: center;
+		align-items: center; */
 		height: 9%;
 		width: 100%;
 		color: #3d3d3d;
