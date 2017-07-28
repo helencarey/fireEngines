@@ -15,8 +15,8 @@ LAYOUT							*/
 	}
 
 	html {
-		overflow-x: hidden; 
-    	overflow-y: auto;
+		overflow: hidden;
+		position: fixed;
 	}
 
 	body {
@@ -28,14 +28,14 @@ LAYOUT							*/
 		padding: 0;
 
 		display: block;
+		position: fixed;
 		/*
 		flex-direction: column;
 		justify-content: space-between;
 		flex-flow: row wrap; */
 		height: 100vh;
 		width: 100vw;
-		overflow-x: hidden; 
-    	overflow-y: auto;
+		overflow: hidden;
 
 		border-radius: 4pt;
 		color: #333333;
