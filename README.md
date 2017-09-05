@@ -11,5 +11,5 @@ On mobile Safari (the browser on your iPhone):
 This is all you need to do to try the app!
 
 
-//-----------------
+//-----------------   
 Unfortunately, I don't think the rubberbanding issue can be fixed with html.
