@@ -29,15 +29,11 @@ LAYOUT							*/
 
 		display: block;
 		position: fixed;
-		/*
-		flex-direction: column;
-		justify-content: space-between;
-		flex-flow: row wrap; */
 		height: 100vh;
 		width: 100vw;
 		overflow: hidden;
 
-		border-radius: 4pt;
+		/*border-radius: 4pt;*/
 		color: #333333;
 		text-rendering: optimizeLegibility;
 	  	-webkit-font-smoothing: subpixel-antialiased;
@@ -70,9 +66,6 @@ LAYOUT							*/
 
 	main {
 		display: block;
-		/*flex: 1 100%;
-		flex-direction: column;
-		justify-content: flex-start;*/
 		padding: 0;
 		width: 100%;
 		height: 80%;
@@ -81,10 +74,6 @@ LAYOUT							*/
 
 	 main>.subHead {
 	 	display: block;
-	 	/*flex: 1 100%;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;*/
 		text-align: center;
 		font-size: 0.75em;
 		min-height: 50px;
@@ -95,8 +84,6 @@ LAYOUT							*/
 
 	 main>.widget {
 	 	display: block;
-	 	/*align-items: center;
-		justify-content: center;*/
 		height: 92%;
 		margin: 0 3%;
 		padding: 0 2%;
@@ -108,20 +95,23 @@ LAYOUT							*/
 
 	footer {
 		display: block;
-		/* flex-direction: row;
-		justify-content: center;
-		align-items: center; */
 		height: 9%;
 		width: 100%;
 		color: #3d3d3d;
 		font-size: 0.5em;
 		background-color: #fff;
-		border-top: 10px solid #fdd835;;
+		/*#fff; #d32b31; #5c1310; */
+		border-top: 10px solid #fdd835;
+		/*border-radius: 0;*/
 
-		/*background-color: rgba(55,55,55, 1);*/
 		padding:;
-		/*margin-top: 60%;  /* clears header */
 		box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
 		z-index: 99;
+	}
+
+	footer > p {
+		text-align: center;
+		font-size: 1.5em;
+		border: 0px solid white;
 	}
 

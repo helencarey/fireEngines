@@ -10,10 +10,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link type="text/css" rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!--
-    <link type="text/css" rel="apple-touch-startup-image" href="assets/images/template/startup_landscape.jpg?v=1" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
-    <link type="text/css" rel="apple-touch-startup-image" href="assets/images/template/startup_portrait.jpg?v=1" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
-    -->
 
   <!-- FONTS -->
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
@@ -43,27 +39,70 @@
       </p>
     </div>
 
+
     <div class="widget">
-      <script type="text/javascript" src="//cdn.playbuzz.com/widget/feed.js"></script>
+      <div id="test"></div>
 
       <div class="pb_feed" 
         data-embed-by="6a7eff12-d1df-43ad-b9ff-9cbfcbb2118b" 
-        data-item="dae26e2b-52ff-472a-876d-837cf4e93820"  
+        data-item="e86c9f20-366a-43b8-9fa6-bf212d6fac22"  
         data-recommend="false" 
         data-game-info="false" 
         data-comments="false" 
         data-shares="false" >
       </div>
-    </div>
 
+        </div>
   </main>
 
-<!--   <footer class="foot">
+<footer class="foot">
     <p>Designed with &lt;3 by Tech Kids Unlimited</p>
-  </footer>  -->
+  </footer>
   
   <!-- SCRIPTS -->
-  <script></script>
+  <script type="text/javascript" src="//cdn.playbuzz.com/widget/feed.js"></script>
+
+  <script type="text/javascript">
+  /*
+
+    var arr = ['taina', 'yedidya', 'joseph', 'matt'];
+
+
+    //Yates-Fisher shuffle: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+
+    function shuffle(array) {
+      // initialize your vars
+      var currentIndex = array.length, tempVal, randIndex;
+
+      // While there are modules in the array to shuffle...
+      while (0 !== currentIndex) {
+
+        // Here's how to pick a remaining element...
+
+        // This gets a random number between 1 - 4 (4 = array.length),
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1; // and counter
+
+        // And swap it with the current element.
+        temporaryValue = arr[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+
+      } //end while
+      
+      return array;
+
+    }
+
+    shuffle(arr);
+
+    //print array
+    document.getElementById("test").innerHTML = arr;
+    
+    */
+
+
+  </script> 
 
 </body>
 </html>
