@@ -1,9 +1,15 @@
-# Fire Enginuity
+# Fire Enginuity Prototype
 
-This webApp relies on iOS-specific config settings, so it can only be 'installed' on iOS devices.
+This web app is simply an html file with iOS-specific config settings, which make it display as if it were a native app. 
+For this reason, our prototype can only be 'installed' on iOS devices.
 
-On mobile Safari (the browser on your iPhone), go to https://github.com/helencarey/fireEngines/tree/gh-pages
-In your browser, choose Share (box with arrow), and then select 'Add to Home Screen.'
-This is all you need to 'install' this super simple app.
+On mobile Safari (the browser on your iPhone): 
+- Go to https://github.com/helencarey/fireEngines/tree/gh-pages
+- At the bottom of your browswer window, choose 'Share' (box with arrow)
+- Select 'Add to Home Screen.'
 
-Unfortunately, I don't think the rubberbanding issue can be fixed in this simple html file.
+This is all you need to do to try the app!
+
+
+//-----------------
+Unfortunately, I don't think the rubberbanding issue can be fixed with html.
